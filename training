@@ -16,6 +16,7 @@
                 
                 elastic ips are charged if requewsated but not associated with instance
                 
+                Create user and download CSV. Use CSV details below.
                 
 C:\Users\Administrator>aws configure
 AWS Access Key ID [None]: AKIAIFDIRRXZTUGNBNHQ
