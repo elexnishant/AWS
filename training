@@ -1,1 +1,15 @@
 
+   region-
+            avaialbility zone
+                
+                
+                
+                
+                https://ec2instances.info/
+                https://www.cloudping.info/
+                
+                
+                 sudo -i
+                 yum install httpd
+                 service httpd start
+                
