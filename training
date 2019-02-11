@@ -15,3 +15,10 @@
                 
                 
                 elastic ips are charged if requewsated but not associated with instance
+                
+                
+C:\Users\Administrator>aws configure
+AWS Access Key ID [None]: AKIAIFDIRRXZTUGNBNHQ
+AWS Secret Access Key [None]: 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
+Default region name [None]: eu-west-1
+Default output format [None]: table
