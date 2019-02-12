@@ -135,4 +135,5 @@ tmpfs           997M     0  997M   0% /dev/shm
 
 
 scripts like gitpull or isntall package can be mentioned under user data while creating instances.
+EBS are stored in same avaialblilty zone but different server
  
