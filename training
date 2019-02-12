@@ -35,3 +35,8 @@ open with ec2-user
  to recover ppk ( keypair)
  Launch new instance from IMAGE and create a newkey pair and download it. 
  
+ change CPU to higher configuration t2.micro to NEW one
+ 
+ 1. Stop the instance
+ 2. 
+ 
