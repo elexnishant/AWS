@@ -98,5 +98,6 @@ tmpfs           997M     0  997M   0% /dev/shm
 /dev/xvda1       16G  1.1G   15G   7% /
 [ec2-user@ip-172-31-14-20 ~]$ sudo -i
 [root@ip-172-31-14-20 ~]# mkdir disk2
+[root@ip-172-31-14-20 ~]# mkfs.ext4 /dev/xvdf
 
  
