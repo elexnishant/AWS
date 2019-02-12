@@ -32,5 +32,6 @@ save session
 open with ec2-user
 
  
- 
+ to recover ppk ( keypair)
+ Launch new instance from IMAGE and create a newkey pair
  
