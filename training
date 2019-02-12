@@ -143,3 +143,5 @@ EBS are stored in same avaialblilty zone but different server
          key - file
     
     file permission  - use S3 class as standard or reduced redundancy.
+    
+    IAM - access to EC2 services
