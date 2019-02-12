@@ -142,3 +142,4 @@ EBS are stored in same avaialblilty zone but different server
         object - Folder
          key - file
     
+    file permission  - use S3 class as standard or reduced redundancy.
