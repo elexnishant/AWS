@@ -38,5 +38,7 @@ open with ec2-user
  change CPU to higher configuration t2.micro to NEW one
  
  1. Stop the instance
- 2. 
+ 2. instance setting change the type to higher version
+ 3. run lsblk on putty
+ 
  
