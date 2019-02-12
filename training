@@ -33,5 +33,5 @@ open with ec2-user
 
  
  to recover ppk ( keypair)
- Launch new instance from IMAGE and create a newkey pair
+ Launch new instance from IMAGE and create a newkey pair and download it. 
  
