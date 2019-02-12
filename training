@@ -134,5 +134,5 @@ tmpfs           997M     0  997M   0% /dev/shm
 /dev/xvdf        12G   30M   12G   1% /disk2
 
 
-
+scripts like gitpull or isntall package can be mentioned under user data while creating instances.
  
