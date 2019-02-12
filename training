@@ -145,3 +145,31 @@ EBS are stored in same avaialblilty zone but different server
     file permission  - use S3 class as standard or reduced redundancy.
     
     IAM - access to EC2 services
+    
+    
+    
+    
+    [root@ip-172-31-14-20 ~]# chmod 777 sample.txt
+[root@ip-172-31-14-20 ~]# aws s3 cp sample.txt s3://nishantbachkainyan/justliket                                                                                                 hat/
+upload failed: ./sample.txt to s3://nishantbachkainyan/justlikethat/sample.txt A                                                                                                 n error occurred (AccessDenied) when calling the PutObject operation: Access Den                                                                                                 ied
+[root@ip-172-31-14-20 ~]# sudo su - nishantcliuesr
+su: user nishantcliuesr does not exist
+[root@ip-172-31-14-20 ~]# sudo su - nishantcliuser
+su: user nishantcliuser does not exist
+[root@ip-172-31-14-20 ~]# sudo su - nishantCLIuser
+su: user nishantCLIuser does not exist
+[root@ip-172-31-14-20 ~]# aws configure
+AWS Access Key ID [None]: AKIAI26JL3Z7LA7C7RZA
+AWS Secret Access Key [None]: wAYYoVy5waYhbiGTT/M3xJFAc83uv30yxowVmkPf
+Default region name [None]: eur-west-1
+Default output format [None]: table
+[root@ip-172-31-14-20 ~]# aws s3 cp sample.txt s3://nishantbachkainyan/justlikethat/
+upload failed: ./sample.txt to s3://nishantbachkainyan/justlikethat/sample.txt Could not connect to the endpoint URL: "https://nishantbachkainyan.s3.eur-west-1.amazonaws.com/justlikethat/sample.txt"
+[root@ip-172-31-14-20 ~]# aws configure
+AWS Access Key ID [****************7RZA]:
+AWS Secret Access Key [****************mkPf]:
+Default region name [eur-west-1]: eu-west-1
+Default output format [table]:
+[root@ip-172-31-14-20 ~]# aws s3 cp sample.txt s3://nishantbachkainyan/justlikethat/
+upload: ./sample.txt to s3://nishantbachkainyan/justlikethat/sample.txt
+
