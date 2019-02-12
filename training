@@ -23,4 +23,14 @@ AKIAIFDIRRXZTUGNBNHQ
 QwsjHLx/jKc0mckhjbvjRhW5HGOTLt6edbtlBCZM
 eu-west-1
 table
+
+
+open putty
+copy IP from aws web
+use ppk under ssh-->auth
+save session
+open with ec2-user
+
+ 
+ 
  
